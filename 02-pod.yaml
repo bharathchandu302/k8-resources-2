@@ -11,4 +11,4 @@ spec:
   - name: nginx
     image: nginx
     ports:
-    - conatiner port: 80
+    - conatinerPort: 80
