@@ -10,6 +10,6 @@ spec:
   volumeMode: Block
   persistentVolumeReclaimPolicy: Retain
   csi:
-  adriver: ebs.csi.aws.com
-  fsType: ext4
-  volumeHandle: vol-084d2b8a74103917b
+    driver: ebs.csi.aws.com
+    fsType: ext4
+    volumeHandle: vol-084d2b8a74103917b
