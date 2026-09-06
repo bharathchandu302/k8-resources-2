@@ -7,7 +7,6 @@ spec:
     storage: 15Gi
   accessModes:
     - ReadWriteOnce
-  volumeMode: Block
   persistentVolumeReclaimPolicy: Retain
   csi:
     driver: ebs.csi.aws.com
@@ -27,4 +26,4 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 10Gi
+      storage: 15Gi
