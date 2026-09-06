@@ -17,7 +17,7 @@ spec:
 ---
 
 apiVersion: v1
-kind: persistentVolumeClaim 
+kind: PersistentVolumeClaim 
 metadata:
   name: ebs-static
 spec:
